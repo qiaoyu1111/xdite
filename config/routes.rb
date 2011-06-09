@@ -1,7 +1,9 @@
 ForumDemo::Application.routes.draw do
 
-  resources :boards
-  resources :posts
+  resources :boards do
+      resources :posts #注意resources与resource的区别。resources对应
+  end
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

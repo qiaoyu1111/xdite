@@ -4,3 +4,23 @@
 <%=@board.name%>
 </div>
 <%= link_to "back", :action => "index" %>
+
+
+<table border="0" cellspacing="5" cellpadding="5">
+	<tr><th>title</th>
+		<th>content</th>
+	</tr>
+	<% @posts.each do |post| %>
+	<tr>
+		<td><%=post.title%></td>
+		<td><%=post.content%></td>
+		<td><%= link_to "show", board_post_path(@board,post) %></td>
+		<td><%= link_to "edit", edit_board_post_path(@board,post) %></td>	
+		<td><%= link_to "destroy", board_post_path(@board,post), :confirm=>"Are you sure",:method=>'delete' %></td>
+	</tr>
+	<% end -%>
+</table>
+
+<%= link_to "new post", new_board_post_path(@board) %>
+<%= link_to "edit", edit_board_path(@board) %>
+<%= link_to "back", boards_path %>

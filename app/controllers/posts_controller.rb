@@ -1,53 +1,56 @@
 class PostsController < ApplicationController
   def index
-    @posts=Post.all
+    @board=Board.find(params[:board_id])
+    redirect_to board_path(@board)
   end
 
   def show
-    @post=Post.find(params[:id])
+    @board=Board.find(params[:board_id])
+    @post=@board.posts.find(params[:id])
   end
 
   def new
-    @post=Post.new
+    @board=Board.find(params[:board_id])
+    @post=@board.posts.build #new与build的区别是什么？
   end
   
   def edit
-    @post=Post.find(params[:id])
+    @board=Board.find(params[:board_id])
+    @post=@board.posts.find(params[:id])
   end
 
   def create
-    @post=Post.new(params[:post])
+    @board=Board.find(params[:board_id])
+    @post =Post.new(params[:post])
+    @post.board_id=@board.id
+    #@post= @board.posts.build(params[:post])
+    @post.save
     respond_to do |format|
-      if @post.save
-        #format.html {redirect_to :action => "show", :id => @post.id,:notice => "成功创建" } 输出不了notice这个参数
-        format.html {redirect_to(@post,:notice => "成功创建" )}
-        else 
-        format.html { redirect_to :action => "new" }
-      end
+      format.html { redirect_to(board_path(@board)) }
     end
+
   end
   
   def update
-    @post=Post.find(params[:id])
+    @board=Board.find(params[:board_id])
+    @post=@board.posts.find(params[:id])
     respond_to do |format|
       if @post.update_attributes(params[:post])
-          format.html { redirect_to(@post,:notice => "成功更新")}
-        else
-          format.html { redirect_to :action => "update"}             
-      end    
-
-    end
-
-  
+        format.html { redirect_to(board_post_path(@board,@post),:notice => "成功更新")}    
+      else 
+        format.html { render :action => "edit"}
+      end
+    end 
   end 
   
   def destroy
-    @post=Post.find(params[:id])
+
+    @board=Board.find(params[:board_id])
+    @post=@board.posts.find(params[:id])
     @post.destroy
     respond_to do |format|
-      format.html { redirect_to(@post) }
-    end
-          
+      format.html { redirect_to(board_path(@board))}
+    end  
   end
-    
+
 end

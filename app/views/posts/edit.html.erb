@@ -1,2 +1,5 @@
-<%= render :partial => "form" %>
-<%= link_to "back", :action => "index" %>
+<% form_for @post, :url=>board_post_path(@board,@post) do |f| %>
+<%=render :partial => "form",:locals=>{:f=>f}%>
+<% end -%>
+<%= link_to "show", board_post_path(@board, @post) %>
+<%= link_to "back", board_posts_path(@board) %>
