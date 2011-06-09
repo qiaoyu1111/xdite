@@ -29,6 +29,12 @@
 
 地雷： 使用rep+tab方式更强于rea+tab;
 
+技巧： @boards.each do |board| {} end #Ruby的特殊用法,Block
+
+技巧： Show => @board index => @boards 
+
+参考：[railsforzombies](http://railsforzombies.org/)
+
 ##v0.0.3: 改动资源关联方式##
 
 地雷： 作者的图书撰写有错误，应该按照v0.0.2最容易理解的思路撰写.控制器部分作者少写了很多内容。
