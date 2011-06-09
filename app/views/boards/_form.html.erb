@@ -1,21 +1,23 @@
-<%= form_for(@board) do |f| %>
-  <% if @board.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@board.errors.count, "error") %> prohibited this board from being saved:</h2>
+<% form_for @board do |f| -%>
 
-      <ul>
-      <% @board.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
+<% if @board.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@board.errors.count, "error") %> prohibited this board from being saved:</h2>
 
-  <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
+    <ul>
+    <% @board.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
   </div>
 <% end %>
+
+
+<div>
+  <%= f.label :name, "Name" %>
+<%= f.text_field :name %>
+</div>
+<%= f.submit "Submit", :disable_with => 'Submiting...' %>
+<% end -%>
+
+
