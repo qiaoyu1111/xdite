@@ -1,19 +1,14 @@
 <p id="notice"><%= notice %></p>
 <table border="0" cellspacing="5" cellpadding="5">
-	<tr><th>name</th></tr>
-	<% @boards.each do |board| %>
-	<tr>
-		<td><%=board.name%></td>
-		<td>
-			
-			<%= link_to "show", :action => "show", :id => board.id %>
-		
-			
-			</td>
-		<td>	<%= link_to "edit", :controller => "boards", :action => "edit", :id => board.id %></td>
-		<td><%= link_to "destroy",  board,:confirm =>"are you sure delete?", :method => :delete %></td>
-		</tr>
-	<% end -%>
+  <tr><th>name</th></tr>
+  <% @boards.each do |board| %>
+    <tr>
+      <td><%=board.name%></td>
+      <td><%= link_to "show", :action => "show", :id => board.id %></td>
+      <td><%= link_to "edit", :controller => "boards", :action => "edit", :id => board.id %></td>
+      <td><%= link_to "destroy",  board,:CONFIRM =>"are you sure delete?", :method => :delete %></td>
+    </tr>
+  <% end -%>
 
 </table>
 <%= link_to "new", :action => "new" %>
