@@ -41,6 +41,8 @@
 
 地雷： 注意routes.rb的 resources :posts #注意resources与resource的区别。resources对应
 
+地雷： hm+tab;Textmate自动的代码需要注意删掉有关引用。
+
 技巧： :locals => {:f =>f } 方式的使用
 
 技巧： Textmate相关快捷方式，尤其是注意撰写资源的时候多使用。
@@ -55,9 +57,34 @@
 * rp+tab;
 * renp+tab; 
 * vp+tab；
+* ^+p;
+* if+tab;
+* table+tab;
+* end+tab;
+* bt+tab;
+* hm+tab;
 
 ##v0.0.4: 使用before_filter简化控制器的定义##
 
 问题：textmate的before_filter在何处？
 
+##v0.0.5: 删除board的时候，将相关的post一起删除
+
+地雷：
+
+错误写法：
+
+	unless @posts.destroy
+	  @board.destroy
+	end
+
+    unless @posts.destroy==true
+      @board.destroy
+    end
+
+问题： 如何保证数据完整性？如果post.destroy删除操作执行有错误，如何确保@board.destroy?
+
+问题： 如果批量删除post?
+
+##v0.0.6: 
 
