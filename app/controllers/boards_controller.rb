@@ -34,7 +34,7 @@ class BoardsController < ApplicationController
     @board=Board.new(params[:board])
     respond_to do |format|
       if @board.save
-        format.html{redirect_to :controller => "boards", :action => "index",:notice => 'Board was successfully created.'}
+        format.html{redirect_to (@board,:notice => 'Board was successfully created.')}
       else
         format.html{redirect_to :action => "new"}
       end
@@ -46,7 +46,7 @@ class BoardsController < ApplicationController
     @board=Board.find(params[:id])
     respond_to do |format|
       if @board.update_attributes(params[:board])
-        format.html { redirect_to :action => "index",:notice => 'Board was successfully updated.'}
+        format.html { redirect_to(@board,:notice => 'Board was successfully updated.')}
       else 
         format.html { render :action => "edit"}
       end
