@@ -166,7 +166,7 @@ end
 地雷： 注意
 	<li><%= link_to "link text...", boards_path %> #错误写法，board_path => /boards </li>
 	<li><%= link_to "link text...", board_path(1) %> # => /board/1</li>
-	<li><%= link_to "link text...", edit_admin_board_path(2) %> # => /admin/boards/2/edit</li>
+	<li><%= link_to "link text...", edit_admin_board_path(2) %> # => /admin/boards/2/edit</li> #错误写法，应用这个来代替，<% form_for @post, :url=>admin_board_post_path(@board,@post) do |f| %>
 	<li><%= link_to "link text...", new_admin_board_path %> # => admin/boards/new</li>
 
 

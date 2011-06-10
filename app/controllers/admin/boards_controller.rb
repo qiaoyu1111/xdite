@@ -4,6 +4,10 @@ class Admin::BoardsController < ApplicationController
   before_filter :require_is_admin
   before_filter :authenticate_user!,:except=>[:index,:show]
 
+  def index
+    redirect_to(boards_path)
+  end
+
   def edit
     #@board=Board.new
     @board=Board.find(params[:id])
