@@ -69,7 +69,8 @@
 
 问题：textmate的before_filter在何处？
 
-##v0.0.5: 删除board的时候，将相关的post一起删除
+##v0.0.5: 删除board的时候，将相关的post一起删除##
+这个版本提交有错误，没有提交成功。
 
 地雷：
 
@@ -87,7 +88,7 @@
 
 问题： 如果批量删除post?
 
-##v0.0.6: devise使用
+##v0.0.6: devise使用##
 
 主要流程：
 
@@ -118,7 +119,14 @@
 
 技巧： gem常用列表,[参考](https://gist.github.com/1018108)
 
+技巧：  
+	git tag -a v0.0.6 -m"devise"
+	git tag -l
+	git tag -d v0.0.6
+	git push xdite :v0.0.6
+	git push xdite --tags
 
+##v0.0.7: 
 
 
 
