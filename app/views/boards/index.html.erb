@@ -4,11 +4,21 @@
     <tr>
       <td><%=board.name%></td>
       <td><%= link_to "show", :action => "show", :id => board.id %></td>
-    <% if current_user !=nil %>
-      <td><%= link_to "edit", :controller => "boards", :action => "edit", :id => board.id %></td>
-	  <td><%= link_to 'Destroy', board, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% if current_user && current_user.is_admin? %>
+      <td>
+	<%= link_to "A-edit", edit_admin_board_path(board) %>
+	</td>
+	  <td><%= link_to 'A-Destroy', admin_board_path(board), :confirm => 'Are you sure?', :method => :delete %>
+		</td>
 	<% end -%>
     </tr>
   <% end -%>
 </table>
-<%= link_to "new", :action => "new" %>
+<% if current_user && current_user.is_admin? %>
+<%= link_to "A-new board", new_admin_board_path %>
+	<% end -%>
+	<ul>
+	<li><%= link_to "link text...", boards_path %> #错误写法，board_path => /boards </li>
+	<li><%= link_to "link text...", board_path(1) %> # => /board/1</li>
+	<li><%= link_to "link text...", edit_admin_board_path(2) %> # => /admin/boards/2/edit</li>
+	<li><%= link_to "link text...", new_admin_board_path %> # => admin/boards/new</li>

@@ -4,7 +4,4 @@
 <% if @post.user=current_user %>
 <%= link_to "edit", edit_board_post_path(@board, @post) %>
 <% end -%>
-<% if current_user && current_user.is_admin? %>
-<%= link_to "A-edit", edit_admin_board_post_path(@board, @post) %>
-<% end -%>
 <%= link_to "back", :action => "index" %>

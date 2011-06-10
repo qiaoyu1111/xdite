@@ -1,0 +1,4 @@
+<% form_for @board,:url => admin_boards_path(@board) do |f| -%>
+<%=render :partial => "form",:locals=>{:f=>f}%>
+<% end -%>
+<%= link_to "back", admin_boards_path %>

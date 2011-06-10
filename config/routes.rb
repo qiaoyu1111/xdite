@@ -6,6 +6,15 @@ ForumDemo::Application.routes.draw do
       resources :posts #注意resources与resource的区别。resources对应
   end
   
+    namespace :admin do
+       # Directs /admin/products/* to Admin::ProductsController
+       # (app/controllers/admin/products_controller.rb)
+       resources :boards do
+         resources :posts
+       end
+     end
+  
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

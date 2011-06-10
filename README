@@ -126,7 +126,47 @@
 	git push xdite :v0.0.6
 	git push xdite --tags
 
-##v0.0.7: 
+##v0.0.7: 管理后台
 
+主要流程：
+
+1.创建路由
+
+2.复制views
+
+	$ mkdir app/controllers/admin/
+	$ cd app/controllers
+	$ cp app/controllers/posts_controller.rb app/controllers/admin/
+	$ cp app/controllers/boards_controller.rb app/controllers/admin/
+	$ mkdir app/views/admin/
+	$ cp -rf app/views/posts/ app/views/admin/posts/
+	$ cp -rf app/views/boards/ app/views/admin/boards/
+	$ cp app/views/layouts/application.html.erb app/views/layouts/admin.html.erb
+
+3.prefix
+
+4.user_nav
+
+5.application_controller.rb
+
+def require_is_admin
+  unless(current_user && current_user.is_admin ? )
+    flash[:alert] = "You must be admin!"
+    redirect_to(root_path)
+end
+
+地雷：unless(current_user && current_user.is_admin?)是对的，unless(current_user && current_user.is_admin ? )是错的。
+
+6。 砍掉前台的boards的CUD
+
+7. 限制前台的boards的CUD只能从后台运行
+
+@board => admin_board_path(@board)
+
+地雷： 注意
+	<li><%= link_to "link text...", boards_path %> #错误写法，board_path => /boards </li>
+	<li><%= link_to "link text...", board_path(1) %> # => /board/1</li>
+	<li><%= link_to "link text...", edit_admin_board_path(2) %> # => /admin/boards/2/edit</li>
+	<li><%= link_to "link text...", new_admin_board_path %> # => admin/boards/new</li>
 
 
