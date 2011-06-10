@@ -63,6 +63,7 @@
 * end+tab;
 * bt+tab;
 * hm+tab;
+* mcol+tab;
 
 ##v0.0.4: 使用before_filter简化控制器的定义##
 
@@ -86,5 +87,38 @@
 
 问题： 如果批量删除post?
 
-##v0.0.6: 
+##v0.0.6: devise使用
+
+主要流程：
+
+	rails g -h #查看可以用的devise命令，一般插件的命令都在这里或者在rake -T里面。
+	rails generate devise:install #
+	rails generate devise User #
+	rake db:migrate #
+	rails g devise:views users #
+	#[内建导航](https://gist.github.com/1018112)
+	#增加<%= notice %>与<%= alert %>在application.html.erb
+	#posts_cntroller.rb 
+	#before_filter :authenticate_user!,:except=>[:show,:index]
+	#修改控制器edit,update and destroy @post=current_user.posts.find(params[:id])
+	#对posts控制器的create增加@post.user_id=current_user.id
+	#修改boards/show视图,if post.user == current_user 
+
+地雷： 区分<% if post.user == current_user && current_user != nil %>与
+<% if post.user == current_user || current_user != nil %>
+
+技巧：[LiveReload](http://doabit.iteye.com/blog/715409)
+
+技巧： bundle
+
+	bundle check
+	bundle install
+	
+技巧： powder restart
+
+技巧： gem常用列表,[参考](https://gist.github.com/1018108)
+
+
+
+
 
