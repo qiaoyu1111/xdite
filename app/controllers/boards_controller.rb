@@ -1,4 +1,6 @@
 class BoardsController < ApplicationController
+  
+  before_filter :authenticate_user!,:except=>[:index,:show]
   def index
     @boards=Board.all
     
@@ -57,9 +59,13 @@ class BoardsController < ApplicationController
 
   def destroy
     @board=Board.find(params[:id])
-    @board.destroy
+    @posts=@board.posts
+    @posts.each do |post|
+      post.destroy
+    end
+    @board.destroy 
     respond_to do |format|
-      format.html { redirect_to :action => "index" }
+      format.html { redirect_to(@board) }
     end
   end
 end

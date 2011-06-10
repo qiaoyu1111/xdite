@@ -1,5 +1,7 @@
 ForumDemo::Application.routes.draw do
 
+  devise_for :users
+
   resources :boards do
       resources :posts #注意resources与resource的区别。resources对应
   end

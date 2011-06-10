@@ -15,8 +15,10 @@
 		<td><%=post.title%></td>
 		<td><%=post.content%></td>
 		<td><%= link_to "show", board_post_path(@board,post) %></td>
-		<td><%= link_to "edit", edit_board_post_path(@board,post) %></td>	
+		<% if post.user == current_user %>
+		<td><%= link_to "edit", edit_board_post_path(@board,post) %></td>
 		<td><%= link_to "destroy", board_post_path(@board,post), :confirm=>"Are you sure",:method=>'delete' %></td>
+		<% end -%>
 	</tr>
 	<% end -%>
 </table>

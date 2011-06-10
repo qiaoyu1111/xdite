@@ -1,4 +1,7 @@
 <p><%=notice%></p>
 <div><%=@post.title%></div>
 <div><%=@post.content%></div>
+<% if @post.user=current_user %>
+<%= link_to "edit", edit_board_post_path(@board, @post) %>
+<% end -%>
 <%= link_to "back", :action => "index" %>

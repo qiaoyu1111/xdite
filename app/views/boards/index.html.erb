@@ -4,8 +4,10 @@
     <tr>
       <td><%=board.name%></td>
       <td><%= link_to "show", :action => "show", :id => board.id %></td>
+    <% if current_user !=nil %>
       <td><%= link_to "edit", :controller => "boards", :action => "edit", :id => board.id %></td>
 	  <td><%= link_to 'Destroy', board, :confirm => 'Are you sure?', :method => :delete %></td>
+	<% end -%>
     </tr>
   <% end -%>
 </table>
