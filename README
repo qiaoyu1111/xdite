@@ -1,7 +1,7 @@
 7天学会Rails3
 ----
-2011－6－9:   v0.0.1;v0.0.2;v0.0.3;v0.0.4
-2011-6-10:  v0.0.5;v0.0.6
+no1(2011－6－9):   v0.0.1;v0.0.2;v0.0.3;v0.0.4
+no2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7;
 
 
 版本说明
@@ -169,4 +169,4 @@ end
 	<li><%= link_to "link text...", edit_admin_board_path(2) %> # => /admin/boards/2/edit</li> #错误写法，应用这个来代替，<% form_for @post, :url=>admin_board_post_path(@board,@post) do |f| %>
 	<li><%= link_to "link text...", new_admin_board_path %> # => admin/boards/new</li>
 
-
+##v0.0.8:  分页
