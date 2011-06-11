@@ -1,7 +1,8 @@
 <p id="notice"><%= notice %></p>
 <div>
-<%=@board.id%>
-<%=@board.name%>
+	<div>board.id :<%=@board.id%></div>
+	<div>board.name:<%=@board.name%></div>
+	<div>拥有的帖子数量：<%=@board.posts.size%></div>
 </div>
 <%= link_to "back", :action => "index" %>
 
@@ -28,7 +29,7 @@
 	</tr>
 	<% end -%>
 </table>
-
+<%= paginate @posts %>
 <%= link_to "new post", new_board_post_path(@board) %>
 <% if current_user && current_user.is_admin? %>
 <%= link_to "A-edit", edit_admin_board_path(@board) %>

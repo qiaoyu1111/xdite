@@ -2,7 +2,7 @@
 ----
 day1(2011－6－9):   v0.0.1;v0.0.2;v0.0.3;v0.0.4  
 day2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7;  
-day3(2011-6-11):  v0.0.8;v0.0.9
+day3(2011-6-11):  v0.0.8;v0.0.9;v0.1.0
 
 版本说明
 ----
@@ -309,11 +309,11 @@ user_nav增加管理面板的导航，记得加以is_admin权限判断
 
 ###Model###
 
-	paginates_per 10
+	paginates_per 5 #app/models/post.rb
 
 ###Controllers###
 
-	@boards = Board.order(:id).page(params[:page])
+	@posts =@board.posts.order(:id).page(params[:page]) #app/controllers/boards_controller.rb的show action
 	
 ####地雷####
 
@@ -321,7 +321,11 @@ user_nav增加管理面板的导航，记得加以is_admin权限判断
 
 ###Views###
 
-	<%= paginate @users %>
+	<%= paginate @posts %> #app/views/boards/show.html.erb
+
+##V0。1。0：Scope##
+
+
 
 
 
