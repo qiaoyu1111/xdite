@@ -17,7 +17,7 @@ user.save!
 i=1
 until i>=100 do 
   board=Board.create(:name=>('board_'+i.to_s))  
- Post.create(:title=>('post_title_'+k.to_s),:content=>('post_content_'+k.to_s),:board_id=>board.id,:user_id=>'2')
+ Post.create(:title=>('post_title_'+i.to_s),:content=>('post_content_'+i.to_s),:board_id=>board.id,:user_id=>'2')
   i += 1
 end 
   
