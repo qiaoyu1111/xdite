@@ -307,6 +307,23 @@ user_nav增加管理面板的导航，记得加以is_admin权限判断
 
 教程使用的分页插件已经过时，请更换为：kaminari(https://github.com/amatsuda/kaminari)
 
+###Model###
+
+	paginates_per 10
+
+###Controllers###
+
+	@boards = Board.order(:id).page(params[:page])
+	
+####地雷####
+
+>注意必须能使得count语句有作用，注意使用powder.applog跟踪sql日志。
+
+###Views###
+
+	<%= paginate @users %>
+
+
 
 
 

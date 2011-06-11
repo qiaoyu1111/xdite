@@ -1,0 +1,1494 @@
+TRubyCocoa
+v3
+r1
+cCheck dependencies
+cSymLink /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/Current A
+cSymLink /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Resources Versions/Current/Resources
+cSymLink /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/RubyCocoa Versions/Current/RubyCocoa
+cSymLink /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Headers Versions/Current/Headers
+cPreprocess /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist Info.plist
+cProcessInfoPlistFile /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/Info.plist /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist
+cCpHeader src/objc/RBObject.h build/Default/RubyCocoa.framework/Versions/A/Headers/RBObject.h
+cCpHeader src/objc/RBRuntime.h build/Default/RubyCocoa.framework/Versions/A/Headers/RBRuntime.h
+cCpHeader src/objc/RubyCocoa.h build/Default/RubyCocoa.framework/Versions/A/Headers/RubyCocoa.h
+cCpHeader src/objc/osx_intern.h build/Default/RubyCocoa.framework/Versions/A/Headers/osx_intern.h
+cCpHeader src/objc/osx_ruby.h build/Default/RubyCocoa.framework/Versions/A/Headers/osx_ruby.h
+cPBXCp tool/gen_bridge_doc.rb build/Default/RubyCocoa.framework/Versions/A/Tools/gen_bridge_doc.rb
+cPBXCp tool/rb_nibtool.rb build/Default/RubyCocoa.framework/Versions/A/Tools/rb_nibtool.rb
+cPBXCp tool/standaloneify.rb build/Default/RubyCocoa.framework/Versions/A/Tools/standaloneify.rb
+cPBXCp src/ruby/osx/active_record.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/active_record.rb
+cPBXCp src/ruby/osx/webkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/webkit.rb
+cPBXCp src/ruby/osx/qtkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/qtkit.rb
+cPBXCp src/ruby/osx/addressbook.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/addressbook.rb
+cPBXCp src/ruby/osx/appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/appkit.rb
+cPBXCp src/ruby/osx/cocoa.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/cocoa.rb
+cPBXCp src/ruby/osx/coredata.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/coredata.rb
+cPBXCp src/ruby/osx/objc/active_record.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/active_record.rb
+cPBXCp src/ruby/osx/objc/oc_bundle_support.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_bundle_support.rb
+cPBXCp src/ruby/osx/objc/application.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/application.rb
+cPBXCp src/ruby/osx/objc/cocoa.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa.rb
+cPBXCp src/ruby/osx/objc/cocoa_macros.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros.rb
+cPBXCp src/ruby/osx/objc/cocoa_macros_appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros_appkit.rb
+cPBXCp src/ruby/osx/objc/foundation.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/foundation.rb
+cPBXCp src/ruby/osx/objc/oc_all.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_all.rb
+cPBXCp src/ruby/osx/objc/oc_attachments.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments.rb
+cPBXCp src/ruby/osx/objc/oc_attachments_appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments_appkit.rb
+cPBXCp src/ruby/osx/objc/oc_exception.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_exception.rb
+cPBXCp src/ruby/osx/objc/oc_import.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_import.rb
+cPBXCp src/ruby/osx/objc/oc_types.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types.rb
+cPBXCp src/ruby/osx/objc/oc_types_appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types_appkit.rb
+cPBXCp src/ruby/osx/objc/oc_wrapper.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_wrapper.rb
+cPBXCp src/ruby/osx/objc/ruby_addition.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/ruby_addition.rb
+cCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcid.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcptr.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcptr.m normal i386 objective-c com.apple.compilers.llvmgcc42
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004D55C8270000000000000D03
+t1297467431
+s3331
+i"syslimits.h"
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004D55C82600000000000010DD
+t1297467430
+s4317
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004D55C8260000000000003197
+t1297467430
+s12695
+i<machine/ansi.h>
+i<sys/_types.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004D55CD3B000000000000190C
+t1297468731
+s6412
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
+c000000004D55C5660000000000000155
+t1297466726
+s341
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/varargs.h
+c000000004D55C826000000000000008B
+t1297467430
+s139
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/CoreFoundation.framework/Headers/CFRunLoop.h
+c000000004CC3E8CB0000000000001C78
+t1287907531
+s7288
+
+N/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004CC3E8CB000000000000B3BB
+t1287907531
+s46011
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D5B397F0000000000B3E980
+t1297824127
+s11790720
+
+N/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h
+c000000004CC401D10000000000000198
+t1287913937
+s408
+
+N/System/Library/Frameworks/Foundation.framework/Headers/NSBundle.h
+c000000004CC401D10000000000001C0F
+t1287913937
+s7183
+
+N/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004CC401D10000000000000EA7
+t1287913937
+s3751
+
+N/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004CC401D20000000000000EDE
+t1287913938
+s3806
+
+N/System/Library/Frameworks/Foundation.framework/Headers/NSPathUtilities.h
+c000000004CC401D20000000000001502
+t1287913938
+s5378
+
+N/System/Library/Frameworks/Foundation.framework/Headers/NSProxy.h
+c000000004CC401D200000000000001EB
+t1287913938
+s491
+
+N/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004CC401D30000000000005F75
+t1287913939
+s24437
+
+N/System/Library/Frameworks/Foundation.framework/Headers/NSThread.h
+c000000004CC401D30000000000000A10
+t1287913939
+s2576
+
+N/System/Library/Frameworks/Foundation.framework/Headers/NSTimer.h
+c000000004CC401D3000000000000046C
+t1287913939
+s1132
+
+N/Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/i686-darwin10.7.0/config.h
+c000000004DF01FE600000000000016C9
+t1307582438
+s5833
+
+N/Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/i686-darwin10.7.0/defines.h
+c000000004830450C00000000000017AB
+t1211122956
+s6059
+i"win32/win32.h"
+i"vms.h"
+i<net/socket.h>
+
+N/Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/i686-darwin10.7.0/env.h
+c0000000045E923B60000000000000478
+t1172906934
+s1144
+
+N/Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/i686-darwin10.7.0/intern.h
+c000000004C0E028F0000000000004D27
+t1275986575
+s19751
+
+N/Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/i686-darwin10.7.0/missing.h
+c000000004CEA19F70000000000000AE2
+t1290410487
+s2786
+i<sys/time.h>
+i<sys/types.h>
+i<stdarg.h>
+i<varargs.h>
+
+N/Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/i686-darwin10.7.0/rubysig.h
+c0000000049616D720000000000000B4A
+t1231121778
+s2890
+i<errno.h>
+
+N/Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/i686-darwin10.7.0/st.h
+c0000000045D0F1BF0000000000000750
+t1171321279
+s1872
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Headers
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Resources
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/RubyCocoa
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers/RBObject.h
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers/RBRuntime.h
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers/RubyCocoa.h
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers/osx_intern.h
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers/osx_ruby.h
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/Info.plist
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/active_record.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/addressbook.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/appkit.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/cocoa.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/coredata.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/active_record.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/application.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros_appkit.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/foundation.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_all.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments_appkit.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_bundle_support.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_exception.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_import.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types_appkit.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_wrapper.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/ruby_addition.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/qtkit.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/webkit.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/RubyCocoa
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Tools/gen_bridge_doc.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Tools/rb_nibtool.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Tools/standaloneify.rb
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/Current
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/BridgeSupport.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/OverrideMixin.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBClassUtils.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBObject.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBRuntime.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBSlaveObject.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBTestProbe.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBThreadSwitcher.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RubyCocoa.LinkFileList
+c000000004DF36A0F00000000000009CC
+t1307798031
+s2508
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RubyCocoa.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcid.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcptr.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/libffi.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/mdl_bundle_support.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/mdl_objwrapper.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/mdl_osxobjc.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/ocdata_conv.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/ocexception.o
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist
+t2
+s0
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Script-4D7AD1190BF2994500F1A2C6.sh
+c000000004DF36A0F000000000000013B
+t1307798031
+s315
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/BridgeSupport.h
+c0000000047B3FC2B000000000000100F
+t1202977835
+s4111
+i"libffi.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/BridgeSupport.m
+c000000004A635072000000000000EDFB
+t1248022642
+s60923
+i<Foundation/Foundation.h>
+i"osx_ruby.h"
+i"osx_intern.h"
+i"BridgeSupport.h"
+i<dlfcn.h>
+i<st.h>
+i<env.h>
+i<objc/objc-class.h>
+i<objc/objc-runtime.h>
+i"ocdata_conv.h"
+i"ffi.h"
+i"internal_macros.h"
+i"cls_objcid.h"
+i"BridgeSupportLexer.h"
+i"RBClassUtils.h"
+i"mdl_osxobjc.h"
+i"ocexception.h"
+i"objc_compat.h"
+i<libxml/xmlreader.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/BridgeSupportLexer.h
+c0000000045FAA5140000000000001A60
+t1174054164
+s6752
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/OverrideMixin.h
+c0000000047B3FC2B00000000000002AE
+t1202977835
+s686
+i<objc/objc-class.h>
+i<Foundation/NSObject.h>
+i"osx_ruby.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/OverrideMixin.m
+c00000000499B46FD00000000000039D1
+t1234913021
+s14801
+i<Cocoa/Cocoa.h>
+i<stdarg.h>
+i<pthread.h>
+i"OverrideMixin.h"
+i"RBObject.h"
+i"RBSlaveObject.h"
+i"internal_macros.h"
+i"RBClassUtils.h"
+i"ocdata_conv.h"
+i"BridgeSupport.h"
+i"st.h"
+i<objc/objc-runtime.h>
+i"mdl_osxobjc.h"
+i"objc_compat.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBClassUtils.h
+c0000000047B3FC2B000000000000034F
+t1202977835
+s847
+i<objc/objc.h>
+i<Foundation/NSObject.h>
+i"osx_ruby.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBClassUtils.m
+c000000004A0DC3E700000000000016D6
+t1242416103
+s5846
+i"RBClassUtils.h"
+i<Foundation/Foundation.h>
+i<objc/objc.h>
+i<objc/objc-class.h>
+i<objc/objc-runtime.h>
+i"objc_compat.h"
+i"RBObject.h"
+i"OverrideMixin.h"
+i"ocdata_conv.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBObject.h
+c0000000047B3FC2B000000000000034C
+t1202977835
+s844
+i<Foundation/NSProxy.h>
+i<RubyCocoa/osx_ruby.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBObject.m
+c000000004A2E4EF000000000000037A2
+t1244548848
+s14242
+i<Foundation/Foundation.h>
+i<ctype.h>
+i"RBObject.h"
+i"mdl_osxobjc.h"
+i"ocdata_conv.h"
+i"BridgeSupport.h"
+i"internal_macros.h"
+i"OverrideMixin.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBRuntime.h
+c0000000047B3FC2B00000000000005C0
+t1202977835
+s1472
+i<objc/objc.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBRuntime.m
+c00000000499B3027000000000000759B
+t1234907175
+s30107
+i<string.h>
+i<mach-o/dyld.h>
+i<objc/objc-runtime.h>
+i<dlfcn.h>
+i<Foundation/NSBundle.h>
+i<Foundation/NSAutoreleasePool.h>
+i<Foundation/NSString.h>
+i<Foundation/NSPathUtilities.h>
+i<Foundation/NSThread.h>
+i<assert.h>
+i"RBRuntime.h"
+i"RBObject.h"
+i"mdl_osxobjc.h"
+i"mdl_bundle_support.h"
+i"ocdata_conv.h"
+i"OverrideMixin.h"
+i"internal_macros.h"
+i"objc_compat.h"
+i"st.h"
+i<setjmp.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBSlaveObject.h
+c0000000047B3FC2B000000000000028F
+t1202977835
+s655
+i<RubyCocoa/RBObject.h>
+i<RubyCocoa/osx_ruby.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBSlaveObject.m
+c0000000047B3FC2B00000000000004E2
+t1202977835
+s1250
+i<Foundation/Foundation.h>
+i"RBObject.h"
+i"RBSlaveObject.h"
+i"RBClassUtils.h"
+i"osx_ruby.h"
+i"ocdata_conv.h"
+i"mdl_osxobjc.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBTestProbe.m
+c0000000047B3FC2B00000000000001F6
+t1202977835
+s502
+i<Foundation/Foundation.h>
+i"ocdata_conv.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBThreadSwitcher.h
+c0000000047B3FC2B000000000000022C
+t1202977835
+s556
+i<Foundation/NSObject.h>
+i<Foundation/NSTimer.h>
+i<sys/time.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBThreadSwitcher.m
+c0000000047B3FC2B0000000000000777
+t1202977835
+s1911
+i<Foundation/NSAutoreleasePool.h>
+i"RBThreadSwitcher.h"
+i"osx_ruby.h"
+i"rubysig.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RubyCocoa.h
+c0000000047B3FC2B0000000000000357
+t1202977835
+s855
+i<RubyCocoa/RBRuntime.h>
+i<Foundation/NSObject.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RubyCocoa.m
+c0000000047B3FC2B0000000000000400
+t1202977835
+s1024
+i<Foundation/Foundation.h>
+i<RubyCocoa/RubyCocoa.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/Version.h
+c000000004DF369F200000000000000FB
+t1307798002
+s251
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.h
+c0000000047B3FC2B0000000000000329
+t1202977835
+s809
+i"osx_ruby.h"
+i<objc/objc.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m
+c0000000047B3FC2B0000000000000E36
+t1202977835
+s3638
+i"cls_objcid.h"
+i"osx_ruby.h"
+i"ocdata_conv.h"
+i<Foundation/Foundation.h>
+i<string.h>
+i<stdlib.h>
+i"RBObject.h"
+i"internal_macros.h"
+i"BridgeSupport.h"
+i"mdl_osxobjc.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcptr.h
+c0000000047B3FC2B0000000000000234
+t1202977835
+s564
+i"osx_ruby.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcptr.m
+c0000000047B3FC2B0000000000003725
+t1202977835
+s14117
+i"cls_objcptr.h"
+i"ocdata_conv.h"
+i"mdl_osxobjc.h"
+i<Foundation/Foundation.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/internal_macros.h
+c000000004A61F4020000000000000AD4
+t1247933442
+s2772
+i<Foundation/Foundation.h>
+i<CoreFoundation/CFRunLoop.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/libffi.h
+c0000000047B3FC2B0000000000000664
+t1202977835
+s1636
+i"osx_ruby.h"
+i"ffi.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/libffi.m
+c0000000049BEBC580000000000005E50
+t1237236824
+s24144
+i<Foundation/Foundation.h>
+i"libffi.h"
+i"ocdata_conv.h"
+i"BridgeSupport.h"
+i"ocexception.h"
+i"cls_objcid.h"
+i"cls_objcptr.h"
+i"internal_macros.h"
+i<st.h>
+i<sys/mman.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/mdl_bundle_support.h
+c0000000047B3FC2B00000000000002CC
+t1202977835
+s716
+i<objc/objc.h>
+i"osx_ruby.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/mdl_bundle_support.m
+c0000000048B2B74300000000000017E6
+t1219671875
+s6118
+i<Foundation/NSBundle.h>
+i<Foundation/NSAutoreleasePool.h>
+i<Foundation/NSDictionary.h>
+i"osx_ruby.h"
+i"mdl_osxobjc.h"
+i"ocdata_conv.h"
+i"internal_macros.h"
+i"objc_compat.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/mdl_objwrapper.h
+c0000000047B3FC2B0000000000000145
+t1202977835
+s325
+i"osx_ruby.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/mdl_objwrapper.m
+c000000004A2E4EF00000000000004F71
+t1244548848
+s20337
+i"osx_ruby.h"
+i"ocdata_conv.h"
+i"mdl_osxobjc.h"
+i<Foundation/Foundation.h>
+i<string.h>
+i<stdlib.h>
+i<stdarg.h>
+i<objc/objc-runtime.h>
+i"BridgeSupport.h"
+i"internal_macros.h"
+i"ocexception.h"
+i"objc_compat.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/mdl_osxobjc.h
+c0000000047B3FC2B0000000000000416
+t1202977835
+s1046
+i<objc/objc.h>
+i"osx_ruby.h"
+i"cls_objcid.h"
+i"cls_objcptr.h"
+i"mdl_objwrapper.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/mdl_osxobjc.m
+c0000000047B3FC2B0000000000002779
+t1202977835
+s10105
+i"mdl_osxobjc.h"
+i"osx_ruby.h"
+i<Foundation/Foundation.h>
+i"RubyCocoa.h"
+i"Version.h"
+i"RBThreadSwitcher.h"
+i"RBObject.h"
+i"RBClassUtils.h"
+i"ocdata_conv.h"
+i<mach-o/dyld.h>
+i<string.h>
+i"BridgeSupport.h"
+i<objc/objc-runtime.h>
+i"cls_objcid.h"
+i"objc_compat.h"
+i"OverrideMixin.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/objc_compat.h
+c0000000047B3FC2B0000000000000704
+t1202977835
+s1796
+i<objc/objc-class.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/ocdata_conv.h
+c0000000047B3FC2B0000000000000A61
+t1202977835
+s2657
+i<objc/objc-class.h>
+i<stdarg.h>
+i"osx_ruby.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/ocdata_conv.m
+c0000000047B3FC2B0000000000007F45
+t1202977835
+s32581
+i<objc/objc-class.h>
+i<Foundation/Foundation.h>
+i"ocdata_conv.h"
+i"RBObject.h"
+i"mdl_osxobjc.h"
+i<CoreFoundation/CFString.h>
+i"st.h"
+i"BridgeSupport.h"
+i"internal_macros.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/ocexception.h
+c0000000047B3FC2B00000000000001FD
+t1202977835
+s509
+i"osx_ruby.h"
+i<Foundation/Foundation.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/ocexception.m
+c0000000047B3FC2B00000000000006F0
+t1202977835
+s1776
+i"ocexception.h"
+i"ocdata_conv.h"
+i"mdl_osxobjc.h"
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/osx_intern.h
+c000000004DF369F20000000000004D27
+t1307798002
+s19751
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/osx_ruby.h
+c000000004DF369F200000000000057E1
+t1307798002
+s22497
+i"config.h"
+i"defines.h"
+i<stdlib.h>
+i<string.h>
+i<strings.h>
+i<intrinsics.h>
+i<stdint.h>
+i<stddef.h>
+i<stdio.h>
+i<alloca.h>
+i<limits.h>
+i<limits.h>
+i"missing.h"
+i"intern.h"
+i<pthread.h>
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/active_record.rb
+c0000000047B3FC2B0000000000000132
+t1202977835
+s306
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/addressbook.rb
+c0000000047B3FC2B00000000000001CF
+t1202977835
+s463
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/appkit.rb
+c0000000047B3FC2B0000000000000134
+t1202977835
+s308
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/cocoa.rb
+c0000000047B3FC2B0000000000000119
+t1202977835
+s281
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/coredata.rb
+c0000000047B3FC2B00000000000001C6
+t1202977835
+s454
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/active_record.rb
+c0000000049C16F7D000000000000464F
+t1237413757
+s17999
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/application.rb
+c0000000047B3FC2B00000000000003AB
+t1202977835
+s939
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/cocoa.rb
+c0000000047B3FC2B00000000000001AF
+t1202977835
+s431
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/cocoa_macros.rb
+c0000000047B3FC2B0000000000000D47
+t1202977835
+s3399
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/cocoa_macros_appkit.rb
+c0000000047B3FC2B00000000000003F4
+t1202977835
+s1012
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/foundation.rb
+c0000000047B3FC2B00000000000001A9
+t1202977835
+s425
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_all.rb
+c0000000047B3FC2B00000000000001DC
+t1202977835
+s476
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_attachments.rb
+c0000000049A473EA000000000000C98A
+t1235514346
+s51594
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_attachments_appkit.rb
+c0000000047B3FC2B00000000000001A4
+t1202977835
+s420
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_bundle_support.rb
+c0000000047B3FC2B0000000000000587
+t1202977835
+s1415
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_exception.rb
+c0000000047B3FC2B0000000000000339
+t1202977835
+s825
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_import.rb
+c00000000486BB94300000000000064EE
+t1215019331
+s25838
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_types.rb
+c0000000047B3FC2B0000000000000C4F
+t1202977835
+s3151
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_types_appkit.rb
+c0000000047B3FC2B0000000000000851
+t1202977835
+s2129
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_wrapper.rb
+c00000000480E021500000000000013D5
+t1208877589
+s5077
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/ruby_addition.rb
+c0000000047B3FC2B0000000000000C71
+t1202977835
+s3185
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/qtkit.rb
+c0000000047B3FC2B00000000000001BD
+t1202977835
+s445
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/webkit.rb
+c0000000047B3FC2B00000000000001C0
+t1202977835
+s448
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/tool/gen_bridge_doc.rb
+c0000000047248BB20000000000000FFD
+t1193577394
+s4093
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/tool/rb_nibtool.rb
+c00000000473757A200000000000035C4
+t1194809250
+s13764
+
+N/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/tool/standaloneify.rb
+c0000000047029C82000000000000310D
+t1191353474
+s12557
+
+N/usr/include/alloca.h
+c000000004BBD2CE90000000000000588
+t1270689001
+s1416
+
+N/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/usr/include/ctype.h
+c000000004BBD2CE90000000000002C18
+t1270689001
+s11288
+
+N/usr/include/dlfcn.h
+c000000004D5F12270000000000000B1C
+t1298076199
+s2844
+
+N/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/usr/include/ffi/ffi.h
+c000000004BE811E40000000000002420
+t1273500132
+s9248
+
+N/usr/include/libxml2/libxml/xmlreader.h
+c000000004CC3E9420000000000003107
+t1287907650
+s12551
+
+N/usr/include/mach-o/dyld.h
+c000000004D5F12270000000000003CB5
+t1298076199
+s15541
+
+N/usr/include/objc/objc-class.h
+c000000004CC31CFD0000000000000032
+t1287855357
+s50
+
+N/usr/include/objc/objc-runtime.h
+c000000004CC31CFD0000000000000032
+t1287855357
+s50
+
+N/usr/include/objc/objc.h
+c000000004CC31CFD0000000000000A2F
+t1287855357
+s2607
+
+N/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/usr/include/setjmp.h
+c000000004BBD2CE90000000000000438
+t1270689001
+s1080
+
+N/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/usr/include/strings.h
+c000000004BBD2CE90000000000000DA4
+t1270689001
+s3492
+
+N/usr/include/sys/_types.h
+c000000004CC3DE680000000000001845
+t1287904872
+s6213
+
+N/usr/include/sys/mman.h
+c000000004CC3DE670000000000002098
+t1287904871
+s8344
+
+N/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/usr/include/sys/types.h
+c000000004CC3DE680000000000002905
+t1287904872
+s10501
+
+NInfo.plist
+c00000000450A98430000000000000434
+t1158322243
+s1076
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies12a04e8da1a3b341^c992598fa1a3b341^---0#1#0#--18"Check dependencies
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/BridgeSupport.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/BridgeSupport.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/OverrideMixin.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/OverrideMixin.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBClassUtils.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBClassUtils.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBObject.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBObject.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBRuntime.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBRuntime.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBSlaveObject.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBSlaveObject.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBTestProbe.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBTestProbe.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RBThreadSwitcher.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBThreadSwitcher.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/RubyCocoa.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RubyCocoa.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcid.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s329490831.808070
+e329490835.806581
+r0
+xCompileC
+xbuild/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcid.o
+x/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m: In function ‘_objcid_data_free’:
+o/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m:32: warning: format not a string literal and no format arguments
+ollvm-gcc-4.2: error trying to exec '/Developer/usr/bin/../llvm-gcc-4.2/bin/powerpc-apple-darwin10-llvm-gcc-4.2': execvp: No such file or directory
+o/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m: In function ‘_objcid_data_free’:
+o/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m:32: warning: format not a string literal and no format arguments
+olipo: can't figure out the architecture type of: /var/folders/h3/h3g2nGd1H7qF4clbvEH0Wk+++TI/-Tmp-//ccyMuZTM.out
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m9cf8ce8fa1a3b341^d66fce93a1a3b341^-888"/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m: In function ‘_objcid_data_free’:/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m:32: warning: format not a string literal and no format argumentsllvm-gcc-4.2: error trying to exec '/Developer/usr/bin/../llvm-gcc-4.2/bin/powerpc-apple-darwin10-llvm-gcc-4.2': execvp: No such file or directory/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m: In function ‘_objcid_data_free’:/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m:32: warning: format not a string literal and no format argumentslipo: can't figure out the architecture type of: /var/folders/h3/h3g2nGd1H7qF4clbvEH0Wk+++TI/-Tmp-//ccyMuZTM.outCommand /Developer/usr/bin/llvm-gcc-4.2 failed with exit code 2553(21%IDEActivityLogMessage2@51"Format not a string literal and no format arguments-329490835#123#154#-1#-23%DVTTextDocumentLocation3@104"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m0000000000000000^31#18446744073709551615#31#18446744073709551615#18446744073709551615#0#51"Format not a string literal and no format arguments--2@51"Format not a string literal and no format arguments-329490835#547#154#-1#-3@104"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m0000000000000000^31#18446744073709551615#31#18446744073709551615#18446744073709551615#0#51"Format not a string literal and no format arguments--2@65"Command /Developer/usr/bin/llvm-gcc-4.2 failed with exit code 255-329490835#18446744073709551615#0#-2#--18"LLVM GCC 4.2 Error--0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m0000000000000000^1528"CompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcid.o src/objc/cls_objcid.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/RubyCocoa.hmap -I/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/include -I/Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/i686-darwin10.7.0 -I/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/DerivedSources/i386 -I/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default -fno-common -g -fobjc-exceptions -Wall -arch ppc -arch i386 -arch x86_64 -DRB_ID=ID -I/usr/include/libxml2 -DHAS_LIBXML2 -I/usr/include/ffi -DMACOSX -c /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcid.m -o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcid.o
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcptr.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcptr.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s329490831.808615
+e329490835.906975
+r0
+xCompileC
+xbuild/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcptr.o
+x/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcptr.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+ollvm-gcc-4.2: error trying to exec '/Developer/usr/bin/../llvm-gcc-4.2/bin/powerpc-apple-darwin10-llvm-gcc-4.2': execvp: No such file or directory
+olipo: can't figure out the architecture type of: /var/folders/h3/h3g2nGd1H7qF4clbvEH0Wk+++TI/-Tmp-//ccHoDzoD.out
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcptr.m041fcf8fa1a3b341^2123e893a1a3b341^-260"llvm-gcc-4.2: error trying to exec '/Developer/usr/bin/../llvm-gcc-4.2/bin/powerpc-apple-darwin10-llvm-gcc-4.2': execvp: No such file or directorylipo: can't figure out the architecture type of: /var/folders/h3/h3g2nGd1H7qF4clbvEH0Wk+++TI/-Tmp-//ccHoDzoD.out-0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcptr.m0000000000000000^1532"CompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcptr.o src/objc/cls_objcptr.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/RubyCocoa.hmap -I/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/include -I/Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/i686-darwin10.7.0 -I/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/DerivedSources/i386 -I/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default -fno-common -g -fobjc-exceptions -Wall -arch ppc -arch i386 -arch x86_64 -DRB_ID=ID -I/usr/include/libxml2 -DHAS_LIBXML2 -I/usr/include/ffi -DMACOSX -c /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/cls_objcptr.m -o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/cls_objcptr.o
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/libffi.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/libffi.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/mdl_bundle_support.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/mdl_bundle_support.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/mdl_objwrapper.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/mdl_objwrapper.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/mdl_osxobjc.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/mdl_osxobjc.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/ocdata_conv.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/ocdata_conv.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/RubyCocoa.build/Default/RubyCocoa.build/Objects-normal/i386/ocexception.o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/ocexception.m normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCpHeader src/objc/RBObject.h build/Default/RubyCocoa.framework/Versions/A/Headers/RBObject.h
+s329490831.736727
+e329490831.741994
+r1
+xCpHeader
+xsrc/objc/RBObject.h
+xbuild/Default/RubyCocoa.framework/Versions/A/Headers/RBObject.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Default/RubyCocoa.framework/Versions/A/Headers/RBObject.h74b2bc8fa1a3b341^f1f5bd8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers/RBObject.h0000204dfb01f041^494"CpHeader src/objc/RBObject.h build/Default/RubyCocoa.framework/Versions/A/Headers/RBObject.h    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBObject.h /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers
+
+CCpHeader src/objc/RBRuntime.h build/Default/RubyCocoa.framework/Versions/A/Headers/RBRuntime.h
+s329490831.737257
+e329490831.741779
+r1
+xCpHeader
+xsrc/objc/RBRuntime.h
+xbuild/Default/RubyCocoa.framework/Versions/A/Headers/RBRuntime.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Default/RubyCocoa.framework/Versions/A/Headers/RBRuntime.h9accbc8fa1a3b341^50e4bd8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers/RBRuntime.h0000204dfb01f041^497"CpHeader src/objc/RBRuntime.h build/Default/RubyCocoa.framework/Versions/A/Headers/RBRuntime.h    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RBRuntime.h /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers
+
+CCpHeader src/objc/RubyCocoa.h build/Default/RubyCocoa.framework/Versions/A/Headers/RubyCocoa.h
+s329490831.741870
+e329490831.745434
+r1
+xCpHeader
+xsrc/objc/RubyCocoa.h
+xbuild/Default/RubyCocoa.framework/Versions/A/Headers/RubyCocoa.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Default/RubyCocoa.framework/Versions/A/Headers/RubyCocoa.hd503be8fa1a3b341^7effbe8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers/RubyCocoa.h0000204dfb01f041^497"CpHeader src/objc/RubyCocoa.h build/Default/RubyCocoa.framework/Versions/A/Headers/RubyCocoa.h    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/RubyCocoa.h /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers
+
+CCpHeader src/objc/osx_intern.h build/Default/RubyCocoa.framework/Versions/A/Headers/osx_intern.h
+s329490831.742270
+e329490831.745972
+r1
+xCpHeader
+xsrc/objc/osx_intern.h
+xbuild/Default/RubyCocoa.framework/Versions/A/Headers/osx_intern.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Default/RubyCocoa.framework/Versions/A/Headers/osx_intern.h0514be8fa1a3b341^ee04bf8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers/osx_intern.h0000204dfb01f041^500"CpHeader src/objc/osx_intern.h build/Default/RubyCocoa.framework/Versions/A/Headers/osx_intern.h    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/osx_intern.h /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers
+
+CCpHeader src/objc/osx_ruby.h build/Default/RubyCocoa.framework/Versions/A/Headers/osx_ruby.h
+s329490831.745516
+e329490831.747658
+r1
+xCpHeader
+xsrc/objc/osx_ruby.h
+xbuild/Default/RubyCocoa.framework/Versions/A/Headers/osx_ruby.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Default/RubyCocoa.framework/Versions/A/Headers/osx_ruby.ha2ebbe8fa1a3b341^9869bf8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers/osx_ruby.h0000204dfb01f041^494"CpHeader src/objc/osx_ruby.h build/Default/RubyCocoa.framework/Versions/A/Headers/osx_ruby.h    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/objc/osx_ruby.h /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Headers
+
+CLd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/RubyCocoa normal i386
+r0
+
+CPBXCp src/ruby/osx/active_record.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/active_record.rb
+s329490831.764109
+e329490831.766536
+r1
+xPBXCp
+xsrc/ruby/osx/active_record.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/active_record.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/active_record.rbb4acc38fa1a3b341^d140c48fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/active_record.rb0000204dfb01f041^539"PBXCp src/ruby/osx/active_record.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/active_record.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/active_record.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx
+
+CPBXCp src/ruby/osx/addressbook.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/addressbook.rb
+s329490831.767477
+e329490831.773844
+r1
+xPBXCp
+xsrc/ruby/osx/addressbook.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/addressbook.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/addressbook.rb1e88c48fa1a3b341^a81dc68fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/addressbook.rb0000204dfb01f041^533"PBXCp src/ruby/osx/addressbook.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/addressbook.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/addressbook.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx
+
+CPBXCp src/ruby/osx/appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/appkit.rb
+s329490831.773190
+e329490831.776016
+r1
+xPBXCp
+xsrc/ruby/osx/appkit.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/appkit.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/appkit.rb3202c68fa1a3b341^6761cb8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/appkit.rb0000204dfb01f041^518"PBXCp src/ruby/osx/appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/appkit.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/appkit.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx
+
+CPBXCp src/ruby/osx/cocoa.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/cocoa.rb
+s329490831.774005
+e329490831.776545
+r1
+xPBXCp
+xsrc/ruby/osx/cocoa.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/cocoa.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/cocoa.rbbe33c68fa1a3b341^1269cb8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/cocoa.rb0000204dfb01f041^515"PBXCp src/ruby/osx/cocoa.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/cocoa.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/cocoa.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx
+
+CPBXCp src/ruby/osx/coredata.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/coredata.rb
+s329490831.776093
+e329490831.778110
+r1
+xPBXCp
+xsrc/ruby/osx/coredata.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/coredata.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/coredata.rba1bdc68fa1a3b341^8b87cb8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/coredata.rb0000204dfb01f041^524"PBXCp src/ruby/osx/coredata.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/coredata.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/coredata.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx
+
+CPBXCp src/ruby/osx/objc/active_record.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/active_record.rb
+s329490831.779509
+e329490831.782545
+r1
+xPBXCp
+xsrc/ruby/osx/objc/active_record.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/active_record.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/active_record.rbdba7c78fa1a3b341^5793cb8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/active_record.rb0000204dfb01f041^559"PBXCp src/ruby/osx/objc/active_record.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/active_record.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/active_record.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/application.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/application.rb
+s329490831.782633
+e329490831.785621
+r1
+xPBXCp
+xsrc/ruby/osx/objc/application.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/application.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/application.rb7e6ec88fa1a3b341^a569cc8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/application.rb0000204dfb01f041^553"PBXCp src/ruby/osx/objc/application.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/application.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/application.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/cocoa.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa.rb
+s329490831.783210
+e329490831.786435
+r1
+xPBXCp
+xsrc/ruby/osx/objc/cocoa.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa.rba390c88fa1a3b341^376fcc8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa.rb0000204dfb01f041^535"PBXCp src/ruby/osx/objc/cocoa.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/cocoa.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/cocoa_macros.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros.rb
+s329490831.785772
+e329490831.788907
+r1
+xPBXCp
+xsrc/ruby/osx/objc/cocoa_macros.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros.rb8a3cc98fa1a3b341^41f1cf8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros.rb0000204dfb01f041^556"PBXCp src/ruby/osx/objc/cocoa_macros.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/cocoa_macros.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/cocoa_macros_appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros_appkit.rb
+s329490831.786504
+e329490831.789571
+r1
+xPBXCp
+xsrc/ruby/osx/objc/cocoa_macros_appkit.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros_appkit.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros_appkit.rbbe6ac98fa1a3b341^070ad08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros_appkit.rb0000204dfb01f041^577"PBXCp src/ruby/osx/objc/cocoa_macros_appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/cocoa_macros_appkit.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/cocoa_macros_appkit.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/foundation.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/foundation.rb
+s329490831.789001
+e329490831.793008
+r1
+xPBXCp
+xsrc/ruby/osx/objc/foundation.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/foundation.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/foundation.rbfa0eca8fa1a3b341^6517d08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/foundation.rb0000204dfb01f041^550"PBXCp src/ruby/osx/objc/foundation.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/foundation.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/foundation.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/oc_all.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_all.rb
+s329490831.789643
+e329490831.793711
+r1
+xPBXCp
+xsrc/ruby/osx/objc/oc_all.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_all.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_all.rbda38ca8fa1a3b341^cd22d08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_all.rb0000204dfb01f041^538"PBXCp src/ruby/osx/objc/oc_all.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_all.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_all.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/oc_attachments.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments.rb
+s329490831.793127
+e329490831.797939
+r1
+xPBXCp
+xsrc/ruby/osx/objc/oc_attachments.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments.rb3f1dcb8fa1a3b341^b134d08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments.rb0000204dfb01f041^562"PBXCp src/ruby/osx/objc/oc_attachments.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_attachments.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/oc_attachments_appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments_appkit.rb
+s329490831.794337
+e329490831.797388
+r1
+xPBXCp
+xsrc/ruby/osx/objc/oc_attachments_appkit.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments_appkit.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments_appkit.rbfe80cb8fa1a3b341^6e30d08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments_appkit.rb0000204dfb01f041^583"PBXCp src/ruby/osx/objc/oc_attachments_appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_attachments_appkit.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_attachments_appkit.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/oc_bundle_support.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_bundle_support.rb
+s329490831.780056
+e329490831.783129
+r1
+xPBXCp
+xsrc/ruby/osx/objc/oc_bundle_support.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_bundle_support.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_bundle_support.rbfcc2c78fa1a3b341^9baacb8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_bundle_support.rb0000204dfb01f041^571"PBXCp src/ruby/osx/objc/oc_bundle_support.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_bundle_support.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_bundle_support.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/oc_exception.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_exception.rb
+s329490831.797473
+e329490831.800501
+r1
+xPBXCp
+xsrc/ruby/osx/objc/oc_exception.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_exception.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_exception.rb2a38cc8fa1a3b341^594cd08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_exception.rb0000204dfb01f041^556"PBXCp src/ruby/osx/objc/oc_exception.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_exception.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_exception.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/oc_import.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_import.rb
+s329490831.798008
+e329490831.801072
+r1
+xPBXCp
+xsrc/ruby/osx/objc/oc_import.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_import.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_import.rb9659cc8fa1a3b341^b057d08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_import.rb0000204dfb01f041^547"PBXCp src/ruby/osx/objc/oc_import.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_import.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_import.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/oc_types.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types.rb
+s329490831.800606
+e329490831.803449
+r1
+xPBXCp
+xsrc/ruby/osx/objc/oc_types.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types.rb7d05cd8fa1a3b341^dc64d08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types.rb0000204dfb01f041^544"PBXCp src/ruby/osx/objc/oc_types.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_types.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/oc_types_appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types_appkit.rb
+s329490831.801148
+e329490831.803948
+r1
+xPBXCp
+xsrc/ruby/osx/objc/oc_types_appkit.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types_appkit.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types_appkit.rb603acd8fa1a3b341^3370d08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types_appkit.rb0000204dfb01f041^565"PBXCp src/ruby/osx/objc/oc_types_appkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_types_appkit.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_types_appkit.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/oc_wrapper.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_wrapper.rb
+s329490831.803523
+e329490831.806527
+r1
+xPBXCp
+xsrc/ruby/osx/objc/oc_wrapper.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_wrapper.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_wrapper.rb69c3cd8fa1a3b341^a27dd08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_wrapper.rb0000204dfb01f041^550"PBXCp src/ruby/osx/objc/oc_wrapper.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/oc_wrapper.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/oc_wrapper.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/objc/ruby_addition.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/ruby_addition.rb
+s329490831.804020
+e329490831.806656
+r1
+xPBXCp
+xsrc/ruby/osx/objc/ruby_addition.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/ruby_addition.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/ruby_addition.rbebe3cd8fa1a3b341^ca8bd08fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/ruby_addition.rb0000204dfb01f041^559"PBXCp src/ruby/osx/objc/ruby_addition.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc/ruby_addition.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/objc/ruby_addition.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/objc
+
+CPBXCp src/ruby/osx/qtkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/qtkit.rb
+s329490831.767002
+e329490831.772411
+r1
+xPBXCp
+xsrc/ruby/osx/qtkit.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/qtkit.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/qtkit.rbc26ac48fa1a3b341^6fd9c58fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/qtkit.rb0000204dfb01f041^515"PBXCp src/ruby/osx/qtkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/qtkit.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/qtkit.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx
+
+CPBXCp src/ruby/osx/webkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/webkit.rb
+s329490831.764314
+e329490831.767099
+r1
+xPBXCp
+xsrc/ruby/osx/webkit.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/webkit.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/webkit.rb67bac38fa1a3b341^2767c48fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/webkit.rb0000204dfb01f041^518"PBXCp src/ruby/osx/webkit.rb build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx/webkit.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/src/ruby/osx/webkit.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/ruby/osx
+
+CPBXCp tool/gen_bridge_doc.rb build/Default/RubyCocoa.framework/Versions/A/Tools/gen_bridge_doc.rb
+s329490831.749121
+e329490831.759620
+r1
+xPBXCp
+xtool/gen_bridge_doc.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Tools/gen_bridge_doc.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Default/RubyCocoa.framework/Versions/A/Tools/gen_bridge_doc.rb1adbbf8fa1a3b341^4276c28fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Tools/gen_bridge_doc.rb0000204dfb01f041^500"PBXCp tool/gen_bridge_doc.rb build/Default/RubyCocoa.framework/Versions/A/Tools/gen_bridge_doc.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/tool/gen_bridge_doc.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Tools
+
+CPBXCp tool/rb_nibtool.rb build/Default/RubyCocoa.framework/Versions/A/Tools/rb_nibtool.rb
+s329490831.749581
+e329490831.759854
+r1
+xPBXCp
+xtool/rb_nibtool.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Tools/rb_nibtool.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Default/RubyCocoa.framework/Versions/A/Tools/rb_nibtool.rb0ef5bf8fa1a3b341^6286c28fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Tools/rb_nibtool.rb0000204dfb01f041^488"PBXCp tool/rb_nibtool.rb build/Default/RubyCocoa.framework/Versions/A/Tools/rb_nibtool.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/tool/rb_nibtool.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Tools
+
+CPBXCp tool/standaloneify.rb build/Default/RubyCocoa.framework/Versions/A/Tools/standaloneify.rb
+s329490831.760034
+e329490831.762499
+r1
+xPBXCp
+xtool/standaloneify.rb
+xbuild/Default/RubyCocoa.framework/Versions/A/Tools/standaloneify.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Default/RubyCocoa.framework/Versions/A/Tools/standaloneify.rb01a4c28fa1a3b341^0133c38fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Tools/standaloneify.rb0000204dfb01f041^497"PBXCp tool/standaloneify.rb build/Default/RubyCocoa.framework/Versions/A/Tools/standaloneify.rb    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/tool/standaloneify.rb /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Tools
+
+CPhaseScriptExecution "Run Script" /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Script-4D7AD1190BF2994500F1A2C6.sh
+r0
+
+CPreprocess /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist Info.plist
+s329490831.464703
+e329490831.731868
+r1
+xPreprocess
+x/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist
+xInfo.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Preprocess build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist Info.plistd811778fa1a3b341^865abb8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/Info.plist0000000000000000^481"Preprocess build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist Info.plist    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    /Developer/usr/bin/gcc -E -P -x c -Wno-trigraphs Info.plist -F/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default -include src/objc/Version.h -o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist
+
+CProcessInfoPlistFile /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/Info.plist /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist
+s329490831.732291
+e329490831.735399
+r1
+xProcessInfoPlistFile
+x/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/Info.plist
+x/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Process /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plistb890bb8fa1a3b341^35b8bd8fa1a3b341^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist0000000000000000^571"ProcessInfoPlistFile build/Default/RubyCocoa.framework/Versions/A/Resources/Info.plist build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    builtin-infoPlistUtility /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/RubyCocoa.build/Default/RubyCocoa.build/Preprocessed-Info.plist -expandbuildsettings -platform macosx -o /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/A/Resources/Info.plist
+
+CSymLink /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Headers Versions/Current/Headers
+s329490831.455263
+e329490831.463206
+r1
+xSymLink
+x/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Headers
+xVersions/Current/Headers
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Process /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Headers899a748fa1a3b341^4ca6768fa1a3b341^---0#0#0#--299"SymLink build/Default/RubyCocoa.framework/Headers Versions/Current/Headers    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    /bin/ln -sf Versions/Current/Headers /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Headers
+
+CSymLink /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Resources Versions/Current/Resources
+s329490831.419620
+e329490831.454703
+r1
+xSymLink
+x/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Resources
+xVersions/Current/Resources
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Process /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Resources7d926b8fa1a3b341^6265748fa1a3b341^---0#0#0#--307"SymLink build/Default/RubyCocoa.framework/Resources Versions/Current/Resources    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    /bin/ln -sf Versions/Current/Resources /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Resources
+
+CSymLink /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/RubyCocoa Versions/Current/RubyCocoa
+s329490831.455065
+e329490831.462790
+r1
+xSymLink
+x/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/RubyCocoa
+xVersions/Current/RubyCocoa
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Process /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/RubyCocoaaf95748fa1a3b341^db89768fa1a3b341^---0#0#0#--307"SymLink build/Default/RubyCocoa.framework/RubyCocoa Versions/Current/RubyCocoa    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    /bin/ln -sf Versions/Current/RubyCocoa /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/RubyCocoa
+
+CSymLink /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/Current A
+s329490831.419434
+e329490831.454775
+r1
+xSymLink
+x/Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/Current
+xA
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Process /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/Currente38e6b8fa1a3b341^7670748fa1a3b341^---0#0#0#--271"SymLink build/Default/RubyCocoa.framework/Versions/Current A    cd /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework    /bin/ln -sf A /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework/Versions/Current
+
+CTouch /Users/ouyang/dev/learn/xdite/forum_demo/RubyCocoa-1.0.0/framework/build/Default/RubyCocoa.framework
+r0
+
