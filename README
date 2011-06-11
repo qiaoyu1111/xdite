@@ -170,7 +170,7 @@ end
 	<li><%= link_to "link text...", edit_admin_board_path(2) %> # => /admin/boards/2/edit</li> #错误写法，应用这个来代替，<% form_for @post, :url=>admin_board_post_path(@board,@post) do |f| %>
 	<li><%= link_to "link text...", new_admin_board_path %> # => admin/boards/new</li>
 
-##v0.0.8:  分页与posts计数##
+##v0.0.8:  posts计数与seeds.rb写法##
 
 ###conuter_cache###
 
@@ -195,7 +195,7 @@ seeds.rb批量的写法：
 	  i += 1
 	end
 
-地雷： 
+地雷： i += 1的位置与是否写出来了。
 
 seeds.rb
 

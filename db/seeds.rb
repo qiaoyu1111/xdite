@@ -14,15 +14,18 @@ user=User.new(:email=>'ouyang@anren.me',:password=>'87654123')
 user.is_admin = false
 user.save!
 
-i=0
-until i>=100 do
-  names=Array.new
-  names[i]='board_'+i.to_s
-  i += 1
+i=1
+until i>100
+  board=Board.create(:name=>('board_name_'+i.to_s))
+  k=1
+  until k>10 
+    Post.create(:title => ('post_title_'+k.to_s),:content => ('post_content_'+k.to_s),:user_id => '2',:board_id => board.id)
+  k+=1
+  end
+  i+=1
+  
 end
-names.each do |name|
-  board=Board.create(:name=>name)
-end
+
   
 
 #boards = Board.create(:name=>name[i])
