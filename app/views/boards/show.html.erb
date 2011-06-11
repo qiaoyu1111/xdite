@@ -8,13 +8,20 @@
 
 
 <table border="0" cellspacing="5" cellpadding="5">
-	<tr><th>title</th>
+	<tr>
+		<th>id</th>
+		<th>title</th>
 		<th>content</th>
+		<th>created time</th>
+		<th>updated time</th>
 	</tr>
 	<% @posts.each do |post| %>
 	<tr>
+		<td><%=post.id%></td>
 		<td><%=post.title%></td>
 		<td><%=post.content%></td>
+		<td><%=post.created_at%></td>
+		<td><%=post.updated_at%></td>
 		<td><%= link_to "show", board_post_path(@board,post) %></td>
 		<% if post.user == current_user %>
 		<td><%= link_to "edit", edit_board_post_path(@board,post) %></td>

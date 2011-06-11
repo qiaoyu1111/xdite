@@ -323,8 +323,23 @@ user_nav增加管理面板的导航，记得加以is_admin权限判断
 
 	<%= paginate @posts %> #app/views/boards/show.html.erb
 
+##V0。1。0：Scope##
 
+###增加default_scope###
 
+	dc+tab #修改app/models/post.rb
+
+###增加recent scope###
+
+	scope :recent, :order => 'updated_at DESC'#修改app/models/post.rb
+	@posts =@board.posts.recent.order(:id).page(params[:page])#修改app/controllers/boards_controller.rb的show action
+	
+###衍生问题###
+
+作业1：直接点击id,title,content,created_at,updated_at五个表格抬头，进行排序。
+
+作业2：除了default_score与score的作用之外，还有nc+tab;ncl+tab是什么意思？有什么作用？如何调用？
+	
 
 
 
