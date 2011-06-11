@@ -1,7 +1,8 @@
 7天学会Rails3
 ----
-no1(2011－6－9):   v0.0.1;v0.0.2;v0.0.3;v0.0.4
-no2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7;
+day1(2011－6－9):   v0.0.1;v0.0.2;v0.0.3;v0.0.4
+day2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7;
+day3(2011-6-11):  v0.0.8;v0.0.9
 
 
 版本说明
@@ -169,4 +170,36 @@ end
 	<li><%= link_to "link text...", edit_admin_board_path(2) %> # => /admin/boards/2/edit</li> #错误写法，应用这个来代替，<% form_for @post, :url=>admin_board_post_path(@board,@post) do |f| %>
 	<li><%= link_to "link text...", new_admin_board_path %> # => admin/boards/new</li>
 
-##v0.0.8:  分页
+##v0.0.8:  分页与posts计数##
+
+###conuter_cache###
+
+增加posts_count字段在boards表的定义
+
+	rails g migration add_posts_conuter_to_board
+
+然后在app/models/post.rb，申明:counter_cache => true
+    
+	belongs_to :board, :class_name => "Board", :foreign_key => "board_id",:counter_cache => true
+
+技巧： 
+
+$ rake db:redo
+$ rake db:seed --trace
+
+seeds.rb批量的写法：
+
+	i=1
+	until i>=100 do 
+	  Board.create(:name=>('board_'+i.to_s)) 
+	  i += 1
+	end
+
+地雷： 
+
+seeds.rb
+
+###分页###
+
+教程使用的插件已经过时，可以更换为：
+
