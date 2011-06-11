@@ -197,5 +197,11 @@ $ rake db:seed --trace
 
 地雷： i += 1的位置与是否写出来了。
 
+##v0.0.9: 分页插件##
+
+教程使用的分页插件已经过时，请更换为：kaminari(https://github.com/amatsuda/kaminari)
+
+
+
 
 
