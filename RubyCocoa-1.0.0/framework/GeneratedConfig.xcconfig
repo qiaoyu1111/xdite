@@ -1,9 +1,0 @@
-RUBYCOCOA_COMMENT = This file is generated from GeneratedConfig.xcconfig.in
-
-HEADER_SEARCH_PATHS = /Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/i686-darwin10.7.0
-LIBRARY_SEARCH_PATHS = /Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib
-OTHER_LDFLAGS = -undefined suppress -flat_namespace -arch ppc -arch i386 -arch x86_64 -lxml2  -lffi  /Users/ouyang/.rvm/rubies/ruby-1.8.7-p334/lib/libruby.1.8.7.dylib
-OTHER_CFLAGS = -fno-common -g -fobjc-exceptions -Wall -arch ppc -arch i386 -arch x86_64 -DRB_ID=ID -I/usr/include/libxml2 -DHAS_LIBXML2  -I/usr/include/ffi  -DMACOSX 
-FRAMEWORK_VERSION = A
-MACOSX_DEPLOYMENT_TARGET = 10.6
-INSTALL_PATH = @executable_path/../Frameworks 
