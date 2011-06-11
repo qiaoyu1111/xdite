@@ -187,7 +187,7 @@ end
 $ rake db:redo
 $ rake db:seed --trace
 
-seeds.rb批量的写法：
+###seeds.rb批量的写法###
 
 	i=1
 	until i>=100 do 
@@ -197,9 +197,5 @@ seeds.rb批量的写法：
 
 地雷： i += 1的位置与是否写出来了。
 
-seeds.rb
 
-###分页###
-
-教程使用的插件已经过时，可以更换为：
 
