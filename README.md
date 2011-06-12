@@ -2,7 +2,7 @@
 ----
 day1(2011－6－9):   v0.0.1;v0.0.2;v0.0.3;v0.0.4  
 day2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7;  
-day3(2011-6-11):  v0.0.8;v0.0.9;v0.1.0;
+day3(2011-6-11):  v0.0.8;v0.0.9;v0.1.0;  
 day4(2011-6-12):  v0.1.1  
 
 版本说明
@@ -390,7 +390,9 @@ user_nav增加管理面板的导航，记得加以is_admin权限判断
 	paperclipff+tab #paperclip file_field相关
 	paperclipit+tab #paperclip image_tag相关
 
-增加git.
+增加.gitignore
+
+	mate .gitignore 
 
 
 
