@@ -2,7 +2,8 @@
 ----
 day1(2011－6－9):   v0.0.1;v0.0.2;v0.0.3;v0.0.4  
 day2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7;  
-day3(2011-6-11):  v0.0.8;v0.0.9;v0.1.0
+day3(2011-6-11):  v0.0.8;v0.0.9;v0.1.0;
+day4(2011-6-12):  v0.1.1  
 
 版本说明
 ----
@@ -340,8 +341,54 @@ user_nav增加管理面板的导航，记得加以is_admin权限判断
 
 作业2：除了default_score与score的作用之外，还有nc+tab;ncl+tab是什么意思？有什么作用？如何调用？
 	
+##v0.1.1:  paperclip插件的使用
 
+###流程1：安装###
 
+	gem 'paperclip'
+	bundle check
+	bundle install
+
+###流程2：Models###
+
+	has_attached_file :excerpt_image, :styles => { :medium => "300x300>", :thumb => "100x100>" }
+
+###流程3：Migrateion###
+
+	rails g migration add_excerpt_image_to_post
+	
+###流程4：Views###
+
+	:html => {:multipart => true } #app/views/posts/new.html_erb的form那里增加
+	<%= f.file_field :excerpt_image %> #app/views/posts/_form.html_erb增加	
+
+###流程5：controllers###
+
+检查一下，是否包括了file_field的提交内容。
+
+###流程6：继续修改views，显示出来###
+
+	<div><%=image_tag @post.excerpt_image.url%></div>
+	<div><%=image_tag @post.excerpt_image.url(:medium)%></div>
+	<div><%=image_tag @post.excerpt_image.url(:thumb)%></div>
+
+###参考###
+
+[rails and paperclip](http://emersonlackey.com/article/paperclip-with-rails-3)
+
+###技巧：自定义textmate快捷###
+
+如何将一些Textmate没有的增加进来，例如：
+
+	has_attached_file :avatar, :styles => { :medium => "300x300>", :thumb => "100x100>" }
+
+最终定义的效果如下：
+
+	paperclipmc+Tab #paperclip migration相关
+	paperclipm+tab  #paperclip m相关
+	paperclipf+tab  #paperclip form相关
+	paperclipff+tab #paperclip file_field相关
+	paperclipit+tab #paperclip image_tag相关
 
 
 

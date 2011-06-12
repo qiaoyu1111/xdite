@@ -1,6 +1,9 @@
 <p><%=notice%></p>
 <div><%=@post.title%></div>
 <div><%=@post.content%></div>
+<div><%=image_tag @post.excerpt_image.url%></div>
+<div><%=image_tag @post.excerpt_image.url(:medium)%></div>
+<div><%=image_tag @post.excerpt_image.url(:thumb)%></div>
 <% if @post.user=current_user %>
 <%= link_to "edit", edit_board_post_path(@board, @post) %>
 <% end -%>

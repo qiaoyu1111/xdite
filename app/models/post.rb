@@ -4,6 +4,7 @@ class Post < ActiveRecord::Base
   belongs_to :user, :class_name => "User", :foreign_key => "user_id"
   #default_scope :order => 'created_at DESC'
   scope :recent, :order => 'updated_at DESC'
+  has_attached_file :excerpt_image, :styles => { :medium => "300x300>", :thumb => "100x100>" }
   
   validates_presence_of :title, :on => :create, :message => "can't be blank"
   validates_presence_of :content, :on => :create, :message => "can't be blank"
