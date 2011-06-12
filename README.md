@@ -396,8 +396,14 @@ user_nav增加管理面板的导航，记得加以is_admin权限判断
 
 ##v0.1.2:  rake##
 
+后缀是rake，而不是rb。rake相关的textmate快捷键：
 
+	nam+tab
+	tas+tab
 
+rake的一些常用参数：
 
+	rake -T
+	rake dev:rebuild -t #rake dev:rebuild --trace
 
 
