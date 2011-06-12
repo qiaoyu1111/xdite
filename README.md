@@ -1,9 +1,9 @@
 7天学会Rails3
 ----
 day1(2011－6－9):   v0.0.1;v0.0.2;v0.0.3;v0.0.4  
-day2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7;  
-day3(2011-6-11):  v0.0.8;v0.0.9;v0.1.0;  
-day4(2011-6-12):  v0.1.1  
+day2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7  
+day3(2011-6-11):  v0.0.8;v0.0.9;v0.1.0  
+day4(2011-6-12):  v0.1.1;v0.1.2;v0.1.3  
 
 版本说明
 ----
@@ -406,4 +406,45 @@ rake的一些常用参数：
 	rake -T
 	rake dev:rebuild -t #rake dev:rebuild --trace
 
+##v0.1.3##
 
+###1.服务器的准备工作###
+
+	sudo useradd apps #增加apps账号
+	sudo passwd apps  #设置apps账号密码
+	sudo mkdir /home/apps #创建目录
+	sudo chown -R apps:apps /home/apps #设置权限
+
+在Mac开发机器上,创建密钥.
+
+	ssh-keygen #创建
+	more ~/.ssh/id_rsa.pub #输出
+
+回到服务器上操作，
+	
+	sudo su apps #以刚创建的apps账号登陆
+	ssh-keygen  #创建apps的ssh keygen，此时记得填入Mac开发机器上的密钥信息.
+	more /home/apps/.ssh/id_rsa) #输出这个keygen的信息
+
+在github相应的项目添加keygen信息。如果希望一个管理所有项目，请在账户设置中增加SSH Public Keys。
+
+###2.将database.yml文件单独处理###
+
+mkdir forum_demo
+mkdir -p forum_demo/shared/config
+vim forum_demo/shared/config/database.yml.production#填入数据库密码信息
+
+更多可以[参考这里](http://www.simonecarletti.com/blog/2009/06/capistrano-and-database-yml/)
+
+###3.配置nginx###
+
+nginx.conf增加：
+
+	server {
+	   listen 80;
+	   server_name tech.yangzhiping.com;
+	   root /home/apps/forum_demo/public;   # <--- be sure to point to 'public'!
+	   passenger_enabled on;
+	}
+
+更多参考：[在ubuntu上搭建基于ree+nginx+passenger的rails3环境](http://www.yangzhiping.com/tech/ubuntu-ree-nginx-passenger-rails3.blog.html)
