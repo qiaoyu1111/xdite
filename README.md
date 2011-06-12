@@ -390,7 +390,7 @@ user_nav增加管理面板的导航，记得加以is_admin权限判断
 	paperclipff+tab #paperclip file_field相关
 	paperclipit+tab #paperclip image_tag相关
 
-
+增加git.
 
 
 
