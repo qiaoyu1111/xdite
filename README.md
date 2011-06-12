@@ -324,7 +324,7 @@ user_nav增加管理面板的导航，记得加以is_admin权限判断
 
 	<%= paginate @posts %> #app/views/boards/show.html.erb
 
-##V0。1。0：Scope##
+##V0.1.0：Scope##
 
 ###增加default_scope###
 
@@ -393,6 +393,11 @@ user_nav增加管理面板的导航，记得加以is_admin权限判断
 增加.gitignore
 
 	mate .gitignore 
+
+##v0.1.2:  rake##
+
+
+
 
 
 
