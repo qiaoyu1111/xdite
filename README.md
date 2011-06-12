@@ -448,3 +448,37 @@ nginx.conf增加：
 	}
 
 更多参考：[在ubuntu上搭建基于ree+nginx+passenger的rails3环境](http://www.yangzhiping.com/tech/ubuntu-ree-nginx-passenger-rails3.blog.html)
+
+###4.配置cap###
+
+安装
+
+	gem 'capistrano'
+	gem 'capistrano-ext'
+	bundle check
+	bundle install
+
+
+在Rails根目录下运行：
+
+	capify . 
+
+系统自动增加2个文件：
+
+	/Capfile                     #启动设置
+	/config/deploy.rb            #目录设置
+
+在系统自动生成的基础上修改.更多参数可以[参考这里](http://help.github.com/deploy-with-capistrano/)或者参考gist
+	
+第一次开始：
+
+	cap deploy:setup #在服务器上自动创建目录结构
+	cap deploy:check #检查目录结构正确配置 
+
+日常操作：
+
+	cap deploy              #分发
+	cap deploy:migrate      #迁移数据库
+	cap deploy:rollback     #回滚
+	cap deploy:restart      #重开
+
