@@ -11,7 +11,9 @@ set :deploy_via, :remote_cache
 set :deploy_env, "production"
 set :rails_env, "production"
 set :scm, :git
-set :branch, "master"
+set :scm_passphrase, "p00p"
+set :branch, 'master'
+set :deploy_via, :copy
 set :scm_verbose, true
 set :use_sudo, false
 

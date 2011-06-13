@@ -5,6 +5,47 @@ day2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7
 day3(2011-6-11):  v0.0.8;v0.0.9;v0.1.0  
 day4(2011-6-12):  v0.1.1;v0.1.2;v0.1.3  
 
+前因
+----
+一位来自台湾的活跃女程序员xdite，最近写了两篇博客。其一，[人生只要70分](http://blog.xdite.net/?p=2270)；其二，[出书的故事](http://blog.xdite.net/?p=2315)
+
+看完之后,颇有感觉.于是,购买了她的这本电子书,也做了一个实验.用7天学会Rails3.
+
+在她出版的这本电子书基础上,撰写了本文档，记录了一些教与学的实验细节.以供对Rails感兴趣,又像我这样,**心理学出身,编程外行，年龄已过三十**的人本着兴趣来学习Ruby与Rails.
+
+7天学会Rails3不是嚼头,但是在7天入门之后,你要花费700天来实践.
+
+简单使用说明
+----
+##1.购买xdite的书##
+
+　　[第一次学Rails就上手](http://blog.xdite.net/?p=2301)
+
+##2.开始练习##
+
+参照xdite提出的题目进行练习,练习之前最好先别看她的章节具体内容.按照自己的理解往下走.走不下去了,再回头来看章节具体内容.如果练习时碰到地雷或者一些问题,可以查阅本文档以及[对照版本库查阅](https://github.com/cngithub/xdite).
+
+##3.反复查书##
+
+[7天学会Rails3的豆列](http://book.douban.com/doulist/1222802/)
+
+##4.学习环境##
+
+Ｍac+TextMate+iTerm
+
+##5.更多参考##
+
+　　[如何学习ruby and rails杂谈](http://www.yangzhiping.com/tech/Learn-to-Program.html)
+
+　　[Rails新手入门培训](http://www.yangzhiping.com/tech/rails-start.html) 
+
+　　[Git与Github入门资料](http://www.yangzhiping.com/tech/git.html) 
+
+　　[Ruby on Rails 实战圣经](http://ihower.tw/rails3/) 
+
+　　[第一次学Rails就上手](http://blog.xdite.net/?p=2301)
+
+
 版本说明
 ----
 ##v0.0.1: hello world##
@@ -415,12 +456,7 @@ rake的一些常用参数：
 	sudo mkdir /home/apps #创建目录
 	sudo chown -R apps:apps /home/apps #设置权限
 
-在Mac开发机器上,创建密钥.
-
-	ssh-keygen #创建
-	more ~/.ssh/id_rsa.pub #输出
-
-回到服务器上操作，
+在服务器上操作，创建密钥.
 	
 	sudo su apps #以刚创建的apps账号登陆
 	ssh-keygen  #创建apps的ssh keygen，此时记得填入Mac开发机器上的密钥信息.
@@ -468,12 +504,19 @@ nginx.conf增加：
 	/Capfile                     #启动设置
 	/config/deploy.rb            #目录设置
 
-在系统自动生成的基础上修改.更多参数可以[参考这里](http://help.github.com/deploy-with-capistrano/)或者参考gist
+在系统自动生成的基础上修改.更多参数可以[参考这里](http://help.github.com/deploy-with-capistrano/)或者参考[gist1022819](https://gist.github.com/1022819)
 	
 第一次开始：
 
 	cap deploy:setup #在服务器上自动创建目录结构
 	cap deploy:check #检查目录结构正确配置 
+
+增加一些Git忽略文件:
+
+	mate .gitignore #railsｕ应用根目录下
+	git add .gitignore # 增加忽略
+	git commit -am "add .gitignore" #提交
+	git push xdite #提交
 
 日常操作：
 
