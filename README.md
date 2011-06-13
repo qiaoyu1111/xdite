@@ -4,6 +4,7 @@ day1(2011-6-9):   v0.0.1;v0.0.2;v0.0.3;v0.0.4
 day2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7  
 day3(2011-6-11):  v0.0.8;v0.0.9;v0.1.0  
 day4(2011-6-12):  v0.1.1;v0.1.2;v0.1.3  
+day5(2011-6-13):  [blog](http://www.yangzhiping.com/tech/7days-learn-rails3.html)
 
 前因
 ----
