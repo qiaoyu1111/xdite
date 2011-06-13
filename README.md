@@ -1,6 +1,6 @@
 7天学会Rails3
 ----
-day1(2011－6－9):   v0.0.1;v0.0.2;v0.0.3;v0.0.4  
+day1(2011-6-9):   v0.0.1;v0.0.2;v0.0.3;v0.0.4  
 day2(2011-6-10):  v0.0.5;v0.0.6;V0.0.7  
 day3(2011-6-11):  v0.0.8;v0.0.9;v0.1.0  
 day4(2011-6-12):  v0.1.1;v0.1.2;v0.1.3  
@@ -9,11 +9,11 @@ day4(2011-6-12):  v0.1.1;v0.1.2;v0.1.3
 ----
 一位来自台湾的活跃女程序员xdite，最近写了两篇博客。其一，[人生只要70分](http://blog.xdite.net/?p=2270)；其二，[出书的故事](http://blog.xdite.net/?p=2315)
 
-看完之后,颇有感觉.于是,购买了她的这本电子书,也做了一个实验.用7天学会Rails3.
+看完之后,颇有感觉.于是,购买了她的这本电子书,也做了一个实验.用7天教与学会Rails3.
 
 在她出版的这本电子书基础上,撰写了本文档，记录了一些教与学的实验细节.以供对Rails感兴趣,又像我这样,**心理学出身,编程外行，年龄已过三十**的人本着兴趣来学习Ruby与Rails.
 
-7天学会Rails3不是嚼头,但是在7天入门之后,你要花费700天来实践.
+7天学会Rails3不是嚼头,实际上,只用了三天时间.但是在7天入门之后,你要花费700天来实践.
 
 简单使用说明
 ----
@@ -33,9 +33,13 @@ day4(2011-6-12):  v0.1.1;v0.1.2;v0.1.3
 
 Ｍac+TextMate+iTerm
 
+##5.代码评论与排雷##
+
 ##5.更多参考##
 
 　　[如何学习ruby and rails杂谈](http://www.yangzhiping.com/tech/Learn-to-Program.html)
+
+　　[在snow Leopard上搭建ree+nginx+passenger的rails3环境](http://www.yangzhiping.com/tech/ree-nginx-passenger-rails3.html)
 
 　　[Rails新手入门培训](http://www.yangzhiping.com/tech/rails-start.html) 
 
