@@ -530,3 +530,8 @@ nginx.conf增加：
 	cap deploy:rollback     #回滚
 	cap deploy:restart      #重开
 
+远程服务器执行：
+
+	rake RAILS_ENV=production db:seed #
+	
+
