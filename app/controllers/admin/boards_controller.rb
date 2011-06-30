@@ -9,7 +9,6 @@ class Admin::BoardsController < ApplicationController
   end
 
   def edit
-    #@board=Board.new
     @board=Board.find(params[:id])
     respond_to do |format|
       format.html
